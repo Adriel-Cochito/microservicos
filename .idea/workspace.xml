@@ -4,11 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3373a6-b5bb-4571-bddd-f2dff109ee2e" name="Changes" comment="" />
+    <list default="true" id="ea3373a6-b5bb-4571-bddd-f2dff109ee2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/EmailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/configuration/BeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/configuration/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/configuration/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/dtos/EmailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/inbound/consumers/EmailConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/inbound/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/outbound/persistence/PostgresEmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/outbound/persistence/SpringDataPostgresEmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/outbound/persistence/entities/EmailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/adapters/outbound/smtp/SmtpSendEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/domain/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/domain/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/domain/enums/StatusEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/ports/EmailRepositoryPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/ports/EmailServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/ports/SendEmailServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/java/com/ms/email/application/services/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-email-hexagonal-architecture/src/test/java/com/ms/email/EmailApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-email/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-email/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25aLC6hpopaHf4G5US5CpX8v6I6" />
   <component name="ProjectViewState">
@@ -18,6 +55,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Microserviços" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,5 +68,16 @@
       <updated>1645760124442</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
